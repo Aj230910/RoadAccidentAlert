@@ -1,4 +1,7 @@
 from email_alert import send_email_alert
+from sms_alert import send_sms
+
+send_sms("🚨 Test SMS from Accident System")
 
 send_email_alert(
     "🚨 TEST EMAIL WITH SNAPSHOT",

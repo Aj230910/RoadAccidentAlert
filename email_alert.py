@@ -19,7 +19,7 @@ def send_email_alert(subject, body, image_path=None):
         msg["To"] = RECEIVER_EMAIL
         msg["Subject"] = subject
 
-        # ✅ HTML Email Body
+        
         html_body = f"""
         <html>
           <body>
